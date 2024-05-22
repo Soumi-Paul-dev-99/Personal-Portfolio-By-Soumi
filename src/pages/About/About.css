@@ -1,0 +1,16 @@
+.about-icons {
+  color: gray;
+}
+
+@media (max-width:975px) {
+  .user-personal {
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

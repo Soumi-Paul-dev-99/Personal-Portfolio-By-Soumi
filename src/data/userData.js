@@ -32,6 +32,8 @@ export const userData = {
       startDate: "21-04-2024",
       color: "LightCoral",
       bg: "#F08080",
+      demoLink:
+        "https://github.com/Soumi-Paul-dev-99/Mern-Ecommerce-ShopIQ-Frontend.git",
     },
     {
       title: "University Website",
@@ -39,8 +41,8 @@ export const userData = {
         "Wardiere University a complete website using React JS. Build college / university website in React JS",
       startDate: "13-05-2024",
       endDate: "19-05-2024",
-      color: "LightSalmon",
-      bg: "#ffb3b3",
+      color: "DarkSalmon",
+      bg: "#90A4AE",
       progress: 100,
     },
     {
@@ -52,6 +54,35 @@ export const userData = {
       color: "DarkSalmon",
       bg: "#90A4AE ",
       progress: 100,
+    },
+    {
+      title: "iRewardify gifting website",
+      description: "MERN stack project aimed at revolutionizing gift-giving",
+      startDate: "1-01-2024",
+
+      color: "LightCoral",
+      bg: "#F08080 ",
+      progress: 60,
+    },
+    {
+      title: "Guardian Banking Solutions",
+      description:
+        "MERN stack project focused on revolutionizing bank-client interaction",
+      startDate: "6-01-2023",
+
+      color: "LightSalmon",
+      bg: "#ffb3b3 ",
+      progress: 80,
+    },
+    {
+      title: "Job-Portal",
+      description: "Plan and track expenses",
+      startDate: "3-10-2024",
+
+      color: "DarkSalmon",
+      bg: "#90A4AE ",
+      progress: 90,
+      demoLink: "https://github.com/Soumi-Paul-dev-99/job-portal-backend.git",
     },
   ],
 
@@ -99,5 +130,11 @@ export const userData = {
   socialMedia: {
     linkedIn: "https://www.linkedin.com/in/soumi-paul-b4950520b/",
     gitHub: "https://github.com/Soumi-Paul-dev-99",
+
   },
+
+  resume: {
+    label: "Resume",
+    link:""
+  }
 };

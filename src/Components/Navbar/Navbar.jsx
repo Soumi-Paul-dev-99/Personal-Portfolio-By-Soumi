@@ -3,6 +3,7 @@ import {
   AppstoreOutlined,
   MailOutlined,
   MessageOutlined,
+  BookOutlined 
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import { Menu } from "antd";
@@ -23,6 +24,11 @@ const items = [
     label: <Link to="/contact">Contact</Link>,
     key: "contact",
     icon: <MessageOutlined />,
+  },
+  {
+    label: <Link to="/education">Education</Link>,
+    key: "contact",
+    icon: <BookOutlined />,
   },
 ];
 const Navbar = () => {

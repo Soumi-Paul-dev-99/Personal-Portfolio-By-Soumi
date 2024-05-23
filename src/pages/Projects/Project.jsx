@@ -1,5 +1,6 @@
 import React from "react";
 import { CiMenuKebab } from "react-icons/ci";
+import { motion } from "framer-motion";
 import PageTitle from "../../Components/PageTitle/PageTitle";
 import { userData } from "../../data/userData";
 import "./Projects.css";
@@ -21,7 +22,12 @@ const Project = () => {
   return (
     <>
       <PageTitle PageTitle="Projects" />
-      <div className="projects">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="projects"
+      >
         {projects.map((project, index) => (
           <Card
             hoverable
@@ -82,7 +88,7 @@ const Project = () => {
             </Flex>
           </Card>
         ))}
-      </div>
+      </motion.div>
     </>
   );
 };

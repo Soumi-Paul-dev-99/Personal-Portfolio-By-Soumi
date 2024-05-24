@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa6";
 import UserInfo from "../userInfo/UserInfo";
 import Skills from "../Skills/Skills";
 import SocialMedia from "../SocialMedia/SocialMedia";
-
+import Resume from "../../assets/Resume.pdf";
 const ProfileCard = () => {
   return (
     <Flex align="center" vertical gap={10} className="profile-card">
@@ -19,7 +19,7 @@ const ProfileCard = () => {
         type="primary"
         className="user-btn"
       >
-        Download CV
+        <a href={Resume}> Download CV</a>
       </Button>
     </Flex>
   );

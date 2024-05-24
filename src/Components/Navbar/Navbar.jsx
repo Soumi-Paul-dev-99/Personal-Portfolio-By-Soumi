@@ -27,7 +27,7 @@ const items = [
   },
   {
     label: <Link to="/education">Education</Link>,
-    key: "contact",
+    key: "education",
     icon: <BookOutlined />,
   },
 ];

@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./pages/About/About";
 import Project from "./pages/Projects/Project";
 import Contact from "./pages/Contact/Contact";
-
+import Education from "./pages/Education/Education";
 function App() {
   return (
     <Flex gap={20} className="app">
@@ -18,6 +18,7 @@ function App() {
           <Route index element={<About />} />
           <Route path="projects" element={<h1>{<Project />}</h1>} />
           <Route path="contact" element={<Contact />} />
+          <Route path="education" element={<Education />} />
         </Route>
       </Routes>
 

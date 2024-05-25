@@ -17,7 +17,7 @@ const Education = () => {
         </h2> */}
       <PageTitle PageTitle="Educational Details" />
       <motion.div
-        className=" education "
+        className="education"
         id="education"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -25,7 +25,7 @@ const Education = () => {
       >
         <hr />
 
-        <VerticalTimeline color="green">
+        <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#F1E5D1", color: "black" }}

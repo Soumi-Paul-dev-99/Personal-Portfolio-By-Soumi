@@ -44,6 +44,7 @@ export const userData = {
       color: "DarkSalmon",
       bg: "#90A4AE",
       progress: 100,
+      demoLink: "https://main--university-website-react-by-soumi.netlify.app/",
     },
     {
       title: "Portfolio Website",
@@ -54,11 +55,12 @@ export const userData = {
       color: "DarkSalmon",
       bg: "#90A4AE ",
       progress: 100,
+      demoLink: "https://main--soumi-paul-personal-portfolio.netlify.app/",
     },
     {
       title: "iRewardify gifting website",
       description: "MERN stack project aimed at revolutionizing gift-giving",
-      startDate: "1-01-2024",
+      startDate: "1-02-2024",
 
       color: "LightCoral",
       bg: "#F08080 ",
@@ -130,11 +132,10 @@ export const userData = {
   socialMedia: {
     linkedIn: "https://www.linkedin.com/in/soumi-paul-b4950520b/",
     gitHub: "https://github.com/Soumi-Paul-dev-99",
-
   },
 
   resume: {
     label: "Resume",
-    link:""
-  }
+    link: "",
+  },
 };

@@ -19,7 +19,9 @@ const ProfileCard = () => {
         type="primary"
         className="user-btn"
       >
-        <a href={Resume}> Download CV</a>
+        <a href={Resume} target="_blank">
+          Download CV
+        </a>
       </Button>
     </Flex>
   );

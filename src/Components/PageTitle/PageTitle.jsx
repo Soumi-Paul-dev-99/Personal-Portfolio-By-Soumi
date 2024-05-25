@@ -10,7 +10,7 @@ const PageTitle = ({ PageTitle }) => {
       justify="center"
       className="gray-bg padding-10 page-title-container"
     >
-      <Title Level={3} strong type="secondary" className="page-title">
+      <Title Level={4} strong type="secondary" className="page-title">
         {PageTitle}
       </Title>
     </Flex>

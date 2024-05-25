@@ -42,7 +42,7 @@ const Navbar = () => {
       <Menu
         onClick={onClick}
         selectedKeys={[current]}
-        mode={window.innerWidth <= 800 ? "horizontal" : "inline"}
+        mode={window.innerWidth <= 900 ? "horizontal" : "inline"}
         items={items}
       />
     </div>

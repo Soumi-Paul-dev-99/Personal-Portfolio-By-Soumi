@@ -48,12 +48,11 @@
   }}
     @media (max-width: 768px) {
       .navbar {
-        width: 100%;
-        height: auto;
+       height: auto;
         transition: all 0.3s ease-in-out;
       }
                 .ant-menu {
-                  width: 100%;
+             
                   display: flex !important;
                   align-items: center;
                   flex-direction: row !important;

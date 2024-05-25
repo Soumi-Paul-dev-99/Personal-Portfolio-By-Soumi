@@ -41,7 +41,7 @@ const Project = () => {
               </Flex>
             </Flex>
             <Flex vertical align="center">
-              <Title Level={1}>{project.title}</Title>
+              <Title level={1}>{project.title}</Title>
               <Text>{project.description}</Text>
             </Flex>
 

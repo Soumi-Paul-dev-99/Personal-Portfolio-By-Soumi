@@ -12,7 +12,7 @@ const UserInfo = () => {
       <img src={userData.profile} alt={ userData.name} className="user-image" />
 
       <Flex align="center" vertical>
-        <Title Level={1} strong type="secondary">{userData.name}</Title>
+        <Title level={1} strong type="secondary">{userData.name}</Title>
         <Text type="secondary">{userData.role }</Text>
       </Flex>
     </Flex>

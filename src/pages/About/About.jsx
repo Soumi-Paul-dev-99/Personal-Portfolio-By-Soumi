@@ -32,7 +32,7 @@ const About = () => {
 
             <Flex vertical gap={30}>
               <Flex gap={10} vertical className="user-details">
-                <Title Level={1} strong type="secondary">
+                <Title level={1} strong type="secondary">
                   {userData.name}
                 </Title>
                 <Text strong type="secondary">

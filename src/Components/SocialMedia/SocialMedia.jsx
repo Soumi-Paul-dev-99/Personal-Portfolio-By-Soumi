@@ -10,10 +10,39 @@ const SocialMedia = ({ about }) => {
       justify="center"
       className={`gray-bg ${about ? "" : "padding-10"}`}
     >
-      <FaFacebook className="user-icon" />
+      {/* <FaFacebook className="user-icon" />
       <FaInstagram className="user-icon" />
       <FaGithub className="user-icon" />
-      <FaWhatsapp className="user-icon" />
+      <FaWhatsapp className="user-icon" /> */}
+
+      <a
+        href="https://www.facebook.com/soumi.paul.mamon98"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaFacebook className="user-icon" />
+      </a>
+      <a
+        href="https://www.instagram.com/soumipaul221298"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaInstagram className="user-icon" />
+      </a>
+      <a
+        href="https://github.com/Soumi-Paul-dev-99"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaGithub className="user-icon" />
+      </a>
+      <a
+        href="http://api.whatsapp.com/send?phone=+919330719639"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp className="user-icon" />
+      </a>
     </Flex>
   );
 };

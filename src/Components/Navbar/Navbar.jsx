@@ -3,7 +3,7 @@ import {
   AppstoreOutlined,
   MailOutlined,
   MessageOutlined,
-  BookOutlined 
+  BookOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 import { Menu } from "antd";
@@ -21,15 +21,15 @@ const items = [
     icon: <AppstoreOutlined />,
   },
   {
-    label: <Link to="/contact">Contact</Link>,
-    key: "contact",
-    icon: <MessageOutlined />,
-  },
-  {
     label: <Link to="/education">Education</Link>,
     key: "education",
     icon: <BookOutlined />,
   },
+  {
+    label: <Link to="/contact">Contact</Link>,
+    key: "contact",
+    icon: <MessageOutlined />,
+  }
 ];
 const Navbar = () => {
   const [current, setCurrent] = useState("about");

@@ -7,6 +7,7 @@
   padding: 10px;
   border-radius: 5px;
   z-index:1000;
+  text-decoration: none !important;
 }
 
 
@@ -18,17 +19,19 @@
   align-items: center !important;
   gap: 1rem;
   border: none !important;
+  text-decoration: none !important;
 }
 
 
 .ant-menu-item {
-  padding: 10px !important;
+  padding: 8px !important;
   display: flex;
   flex-direction: column;
   align-items: center !important;
   justify-self: center !important;
   height: 70px !important;
   line-height: 60px !important;
+  text-decoration: none !important;
 } 
 
 @media (max-width: 800px) {
@@ -42,6 +45,15 @@
     display: flex !important;
     align-items: center;
     flex-direction: row !important;
-  }
-  
-}
+  }}
+    @media (max-width: 200px) {
+      .navbar {
+        width: 100%;
+        height: auto;
+        transition: all 0.3s ease-in-out;
+      }
+                .ant-menu {
+                  display: flex !important;
+                  align-items: center;
+                  flex-direction: row !important;
+}}

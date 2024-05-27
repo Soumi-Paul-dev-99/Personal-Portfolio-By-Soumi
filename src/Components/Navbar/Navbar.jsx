@@ -107,7 +107,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="menu-button">
-        <Button type="secondary" strong bold onClick={showDrawer}>
+        <Button type="default" onClick={showDrawer}>
           <MenuOutlined />
         </Button>
       </div>

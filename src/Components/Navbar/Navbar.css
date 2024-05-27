@@ -57,3 +57,37 @@
                   align-items: center;
                   flex-direction: row !important;
 }}
+
+
+@media (max-width: 480px) {
+  .navbar {
+    /* Ensuring the navbar adapts well to very small screens */
+    flex-direction: column;
+  }
+
+  .ant-menu {
+    flex-direction: column !important;
+    /* Stacking menu items vertically */
+    align-items: flex-start;
+    /* Aligning items to the start for better fit */
+    width: 100%;
+    /* Making sure the menu takes the full width */
+  }
+
+  .ant-menu-item {
+    width: 100%;
+    /* Ensuring each menu item takes the full width */
+    text-align: center;
+    /* Centering the text in each menu item */
+  }
+}
+
+/* Optional: Ensure contact section fits well */
+.contact-section {
+  width: 100%;
+  /* Ensuring the contact section takes full width */
+  overflow: hidden;
+  /* Hiding overflow if content exceeds the width */
+  box-sizing: border-box;
+  /* Including padding and border in the element's total width and height */
+}

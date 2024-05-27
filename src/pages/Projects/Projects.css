@@ -10,3 +10,47 @@
 .projects h1 {
   font-size: 30px;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  /* Optional: adjust as needed */
+}
+
+.custom-button {
+  background-color: #eb2c0ab2;
+  /* Green background */
+  border: none;
+  /* Remove borders */
+  color: rgba(255, 255, 255, 0.425);
+  /* White text */
+  padding: 1px 32px;
+  /* Some padding */
+  text-align: center;
+  /* Center the text */
+  text-decoration: none;
+  /* Remove underline */
+  display: flex;
+  /* Get the element to line up nicely */
+  font-size: 17px;
+  /* Increase font size */
+  margin: 10px 80px;
+  /* Some space around the button */
+  cursor: pointer;
+  /* Pointer/hand icon */
+  border-radius: 6px;
+  /* Rounded corners */
+  transition-duration: 0.4s;
+  /* 0.4 second transition effect to hover state */
+}
+
+.custom-button:hover {
+  background-color: rgb(18, 137, 192) !important;
+
+  color: rgb(236, 225, 225) !important;
+  /* Black text on hover */
+  border: 2px solid #e47921 !important
+  /* Green border on hover */
+}

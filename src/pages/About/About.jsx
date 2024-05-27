@@ -85,7 +85,9 @@ const About = () => {
                 >
                   <Flex gap={10}>
                     <Text strong>{edu.collage}</Text>
-                    <Text type="secondary">{edu.degreee}</Text>
+                    <Text strong italic>
+                      {edu.degreee}
+                    </Text>
                     <Text type="secondary" strong italic>
                       {edu.durations}
                     </Text>

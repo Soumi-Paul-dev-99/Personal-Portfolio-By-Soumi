@@ -7,6 +7,7 @@ import "./Projects.css";
 
 import {
   Avatar,
+  Button,
   Card,
   Divider,
   Flex,
@@ -17,8 +18,14 @@ import {
 } from "antd";
 
 const { Title, Text } = Typography;
+
 const Project = () => {
   const { projects } = userData;
+
+  const handleDemoLinkClick = (link) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <>
       <PageTitle PageTitle="Projects" />
@@ -47,7 +54,17 @@ const Project = () => {
 
             <Flex vertical>
               <Text>Progress</Text>
+
               <Progress percent={project.progress} status="active" />
+              <br />
+              <Flex>
+                <Button
+                  className="custom-button"
+                  onClick={() => handleDemoLinkClick(project.demoLink)}
+                >
+                  Open
+                </Button>
+              </Flex>
 
               <Divider />
               <Flex align="center" gap={10} justify="space-between">
@@ -79,7 +96,7 @@ const Project = () => {
                   <Tooltip title="User 6" placement="top">
                     <Avatar src="https://img.freepik.com/free-photo/successful-businessman_1098-18155.jpg?t=st=1716381936~exp=1716385536~hmac=767cedc5d5560b1e24f3a5cea40e547151ddd052594702dc9728820690f894b3&w=360" />
                   </Tooltip>
-                  <Tooltip title="User 6" placement="top">
+                  <Tooltip title="User 7" placement="top">
                     <Avatar src="https://img.freepik.com/free-photo/portrait-smiling-young-man-sunglasses_1268-21888.jpg?t=st=1716381975~exp=1716385575~hmac=8db574c0aad7beb212cb749f7a799a2e2c16a254a48d0d5374fb42b126f50f94&w=360" />
                   </Tooltip>
                 </Avatar.Group>

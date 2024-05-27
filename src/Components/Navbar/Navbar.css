@@ -45,15 +45,27 @@
     display: flex !important;
     align-items: center;
     flex-direction: row !important;
-  }}
+    justify-content: space-around;
+    width: 100%;
+  }
+        .ant-menu-item {
+          height: auto;
+          line-height: normal;
+        }}
     @media (max-width: 768px) {
       .navbar {
        height: auto;
         transition: all 0.3s ease-in-out;
       }
                 .ant-menu {
-             
+                width: 100%;
                   display: flex !important;
                   align-items: center;
                   flex-direction: row !important;
-}}
+                  justify-content: space-around;}
+
+                  .ant-menu-item {
+                      height: auto;
+                      line-height: normal;
+                    }
+}

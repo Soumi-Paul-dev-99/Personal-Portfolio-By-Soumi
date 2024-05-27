@@ -29,7 +29,7 @@ const items = [
     label: <Link to="/contact">Contact</Link>,
     key: "contact",
     icon: <MessageOutlined />,
-  }
+  },
 ];
 const Navbar = () => {
   const [current, setCurrent] = useState("about");

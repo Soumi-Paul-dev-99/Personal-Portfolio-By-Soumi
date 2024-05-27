@@ -1,4 +1,4 @@
- .navbar {
+ /* .navbar {
   width: 100px;
   height: 400px;
   position:sticky;
@@ -8,12 +8,12 @@
   border-radius: 5px;
   z-index:1000;
   text-decoration: none !important;
-}
+} */
 
 
 /* ant design classes*/
 
- .ant-menu{
+ /* .ant-menu{
   display:flex;
   flex-direction: column;
   align-items: center !important;
@@ -59,35 +59,108 @@
 }}
 
 
-@media (max-width: 480px) {
+    @media (max-width: 480px) {
+      .navbar {
+        height: auto;
+        transition: all 0.3s ease-in-out;
+      }
+  
+      .ant-menu {
+  
+        display: flex !important;
+        align-items: center;
+        flex-direction: row !important;
+      }
+    } */
+
+
+.navbar {
+  width: 100px;
+  height: 400px;
+  position: sticky;
+  top: 1rem;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  text-decoration: none !important;
+}
+
+.menu-button {
+  display: none;
+}
+
+.desktop-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  gap: 1rem;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+.ant-menu-item {
+  padding: 8px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  justify-self: center !important;
+  height: 70px !important;
+  line-height: 60px !important;
+  text-decoration: none !important;
+}
+
+@media (max-width: 800px) {
   .navbar {
-    /* Ensuring the navbar adapts well to very small screens */
-    flex-direction: column;
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
   }
 
-  .ant-menu {
-    flex-direction: column !important;
-    /* Stacking menu items vertically */
-    align-items: flex-start;
-    /* Aligning items to the start for better fit */
-    width: 100%;
-    /* Making sure the menu takes the full width */
+  .desktop-menu {
+    display: none !important;
   }
 
-  .ant-menu-item {
-    width: 100%;
-    /* Ensuring each menu item takes the full width */
-    text-align: center;
-    /* Centering the text in each menu item */
+  .menu-button {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
   }
 }
 
-/* Optional: Ensure contact section fits well */
-.contact-section {
-  width: 100%;
-  /* Ensuring the contact section takes full width */
-  overflow: hidden;
-  /* Hiding overflow if content exceeds the width */
-  box-sizing: border-box;
-  /* Including padding and border in the element's total width and height */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .desktop-menu {
+    display: none !important;
+  }
+
+  .menu-button {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .desktop-menu {
+    display: none !important;
+  }
+
+  .menu-button {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
 }

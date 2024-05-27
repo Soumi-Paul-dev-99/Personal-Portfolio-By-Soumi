@@ -86,6 +86,17 @@ export const userData = {
       progress: 90,
       demoLink: "https://github.com/Soumi-Paul-dev-99/job-portal-backend.git",
     },
+    {
+      title: "Hospital Management Website",
+      description:
+        "A decent Hospital Management System which is created using Html,css",
+      startDate: "1-12-2022",
+
+      color: "DarkSalmon",
+      bg: "#F08080 ",
+      progress: 100,
+      demoLink: "https://main--hospital-managemant-system.netlify.app/",
+    },
   ],
 
   experience: [

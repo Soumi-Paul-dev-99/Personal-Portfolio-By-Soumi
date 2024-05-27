@@ -42,7 +42,7 @@
   }
 
   .ant-menu {
-    display: flex !important;
+    /* display: flex !important; */
     align-items: center;
     flex-direction: row !important;
     justify-content: space-around;
@@ -59,8 +59,8 @@
       }
                 .ant-menu {
                 width: 100%;
-                  display: flex !important;
-                  align-items: center;
+                  /* display: flex !important; */
+                  /* align-items: center; */
                   flex-direction: row !important;
                   justify-content: space-around;}
 

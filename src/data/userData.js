@@ -84,7 +84,7 @@ export const userData = {
       color: "DarkSalmon",
       bg: "#90A4AE ",
       progress: 90,
-      demoLink: "https://github.com/Soumi-Paul-dev-99/job-portal-backend.git",
+      demoLink: "https://job-portal-backend-qcr8.onrender.com/api-doc/",
     },
     {
       title: "Hospital Management Website",
